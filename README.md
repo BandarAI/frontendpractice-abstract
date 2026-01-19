@@ -1,3 +1,5 @@
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=frontendpractice-abstract">
+
 # 🎨 Frontend Practice - Abstract
 ## 🚀 Live Demo
 [View live site](https://bandarai.github.io/frontendpractice-abstract/#)
