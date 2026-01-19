@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body class="text-black">
+    <header class="bg-black text-white fixed top-0 left-0 w-full z-50">
+      <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center px-6 py-3 gap-3">
+        <div class="flex items-center space-x-2">
+          <div class="flex items-center space-x-1 cursor-pointer">
+            <a href="#"><img src="../images/logo.png" alt="logo"></a>
+            <a href="#" class="font-semibold">Abstract</a>
+          </div>
+          <span>|</span>
+          <a href="#">Help Center</a>
+        </div>
+
+        <div class="space-x-2">
+          <button class="bg-black py-1.5 px-6 border border-white rounded-md cursor-pointer">
+            Submit a request
+          </button>
+          <button class="bg-secondary py-1.5 px-6 rounded-md cursor-pointer">
+            Sign in
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <nav class="bg-primary pt-20">
+      <div class="min-h-[250px] max-w-6xl mx-auto px-6
+                  flex flex-col items-center justify-center space-y-6">
+
+        <h1 class="text-3xl sm:text-5xl font-semibold text-center">
+          How can we help?
+        </h1>
+
+        <div class="bg-white border border-black rounded shadow-lg
+                    w-full max-w-md py-2 px-3
+                    flex items-center gap-2
+                    focus-within:ring-2 focus-within:ring-black transition">
+          <input placeholder="Search" class="outline-none w-full"/>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+      </div>
+    </nav>
+
+    <main class="max-w-6xl mx-auto my-24 px-6 grid grid-cols-1 sm:grid-cols-2 gap-12">
+      <!-- branches -->
+      <article class="flex gap-6">
+        <img src="../images/branches.png" alt="branches"
+            class="w-[85px] h-[85px] shrink-0 object-contain">
+        <div>
+          <h3 class="font-bold">Branches</h3>
+          <p class="my-4">
+            Abstract Branches lets you manage, version, and document your designs in one place.
+          </p>
+          <a href="#" class="text-secondary">
+            Learn More <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- Manage your account -->
+      <article class="flex gap-6">
+        <img src="../images/account.png" alt="account"
+            class="w-[85px] h-[85px] shrink-0 object-contain">
+        <div>
+          <h3 class="font-bold">Manage your account</h3>
+          <p class="my-4">
+            Configure your account settings, such as your email, profile details, and password.
+          </p>
+          <a href="#" class="text-secondary">
+            Learn More <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- Manage organizations, teams, and projects -->
+      <article class="flex gap-6">
+        <img src="../images/organizations.png" alt="organizations"
+            class="w-[85px] h-[85px] shrink-0 object-contain">
+        <div>
+          <h3 class="font-bold">Manage organizations, teams, and projects</h3>
+          <p class="my-4">
+            Use Abstract organizations, teams, and projects to organize your people and your work.
+          </p>
+          <a href="#" class="text-secondary">
+            Learn More <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- Manage billing -->
+      <article class="flex gap-6">
+        <img src="../images/billing.png" alt="billing"
+            class="w-[85px] h-[85px] shrink-0 object-contain">
+        <div>
+          <h3 class="font-bold">Manage billing</h3>
+          <p class="my-4">
+            Change subscriptions and payment details.
+          </p>
+          <a href="#" class="text-secondary">
+            Learn More <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- Authenticate to Abstract -->
+      <article class="flex gap-6">
+        <img src="../images/auth.png" alt="auth"
+            class="w-[85px] h-[85px] shrink-0 object-contain">
+        <div>
+          <h3 class="font-bold">Authenticate to Abstract</h3>
+          <p class="my-4">
+            Set up and configure SSO, SCIM, and Just-in-Time provisioning.
+          </p>
+          <a href="#" class="text-secondary">
+            Learn More <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- Abstract support -->
+      <article class="flex gap-6">
+        <img src="../images/support.png" alt="support"
+            class="w-[85px] h-[85px] shrink-0 object-contain">
+        <div>
+          <h3 class="font-bold">Abstract support</h3>
+          <p class="my-4">
+            Get in touch with a human.
+          </p>
+          <a href="#" class="text-secondary">
+            Learn More <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </article>
+    </main>
+
+    <footer class="bg-black text-white">
+      <div class="max-w-6xl mx-auto px-6 py-16 grid grid-cols-2 sm:grid-cols-5 gap-8">
+        <div>
+          <h4 class="font-bold mb-4">Abstract</h4>
+          <a href="#" class="block w-fit">Branches</a>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-4">Resources</h4>
+          <a href="#" class="block capitalize w-fit">blog</a>
+          <a href="#" class="block capitalize w-fit">help center</a>
+          <a href="#" class="block capitalize w-fit">release notes</a>
+          <a href="#" class="block capitalize w-fit">status</a>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-4">Community</h4>
+          <a href="#" class="block capitalize w-fit">twitter</a>
+          <a href="#" class="block capitalize w-fit">help center</a>
+          <a href="#" class="block capitalize w-fit">linkedIn</a>
+          <a href="#" class="block capitalize w-fit">dribble</a>
+          <a href="#" class="block capitalize w-fit">podcast</a>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-4">Company</h4>
+          <a href="#" class="block capitalize w-fit">about us</a>
+          <a href="#" class="block capitalize w-fit">careers</a>
+          <a href="#" class="block capitalize w-fit">legal</a>
+
+          <div class="mt-5">
+            <h4 class="font-bold capitalize">contact us</h4>
+            <a href="#" class="block w-fit">info@abstract.com</a>
+          </div>
+        </div>
+        
+        <div class="flex flex-col justify-center">
+          <a href="#"><img src="../images/logo.png" alt="logo" class="mb-2 w-[29px] h-[35px]"></a>
+          <div>&copy; Copyright 2030</div>
+          <div class="capitalize">abstract studio design, inc.</div>
+          <div class="capitalize">all rights reserved</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
